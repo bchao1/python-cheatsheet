@@ -1,2 +1,1 @@
-f = lambda a, b: a + b
-print(f(1, 2))
+print([1,2,2,2,3].count(2))

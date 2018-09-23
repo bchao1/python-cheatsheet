@@ -17,9 +17,9 @@ After calling function three times:
 >>> print(foo())
 [1, 1, 1]
 ```
-## Keyword arguments
+### Keyword arguments
 Keyword arguments must follow positional arguments. The order is not important as long as this criterion is fulfilled.
-## Wrap-up
+### More
 A function:
 ```
 def foo(*arg, **kwarg):
@@ -39,7 +39,7 @@ Now call the function:
 'hello/goodbye/good night'
 ``` 
 Note that the number of arguments is not specified, we only know that *args is a list of arguments of arbitrary length.
-## Unpacking arguments list
+### Unpacking arguments list
 Conversely, if we unpack a list of arguments passed to a function, we get seperated individual arguments. For example:
 ```
 >>> args = [1, 4]
@@ -47,7 +47,7 @@ Conversely, if we unpack a list of arguments passed to a function, we get sepera
 >>> list(range(*args)) // Arguments unpacked
 [1, 2, 3]
 ```
-## Lambda Expressions
+### Lambda Expressions
 Small, light-weight functions can be defined using lambdas. The syntax is
 ```
 lambda *args, **args: do stuff
