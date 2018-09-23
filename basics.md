@@ -1,6 +1,7 @@
 # Python Basics Review
 
 ## Functions
+***
 ### Default function arguments 
 The default function value will only be evaluated once. Be careful when using mutable objects as default arguments.
 ```
@@ -59,4 +60,10 @@ For example:
 3
 ```
 Lambdas are often used when small functions are passed as arguments.
+## Comparisons
+Comparisons can be chained.
+```python
+>>> 1 < 4 <= 5
+True
+```
 
