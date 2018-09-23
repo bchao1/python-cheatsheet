@@ -1,6 +1,5 @@
 # Python Data Structures Review 
 ## Lists
-***
 `list.count(x)` returns the number of times `x` apprears in a list. For example:
 
 ```python
@@ -28,9 +27,8 @@ For example, the following code creates a list of integers and its square.
 >>> L
 [(1, 1), (2, 4), (3, 9)]
 ```
-
-## Tuples
 ***
+## Tuples
 Tuples are immutable objects.
 ### Tuple packing
 
@@ -48,8 +46,9 @@ Tuples are immutable objects.
 >>> type(x)
 <class 'tuple'>
 ```
-## Sets 
 ***
+## Sets 
+
 Initialize sets using `set()` not `{}`.
 
 ```python
@@ -66,8 +65,8 @@ Initialize sets using `set()` not `{}`.
 - intersection : `&`
 - complement : `-`
 - disjunctive union : `^`
-## Dictionaries
 ***
+## Dictionaries
 ### Constructor
 `dict()` constructor builds dictionaries from sequence of key-value pairs.
 
@@ -81,8 +80,8 @@ We can also use keyword arguments (when keys are strings).
 >>> dict(a = 1, b = 2, c = 3)
 {'a': 1, 'b': 2, 'c': 3}
 ```
-## Looping through sequences
 ***
+## Looping through sequences
 ### `item()` method
 When looping through dictionaries, use `items()` to retrive key and value at the same time (usually we only access the key and then use `[]` to access the value).
 ```python
