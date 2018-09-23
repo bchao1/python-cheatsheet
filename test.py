@@ -1,4 +1,2 @@
-a = [1, 2, 3]
-b = ['x', 'y', 'z', 'w']
-for x in zip(a, b):
-    print(x[0], x[1])
+import my_module
+print(my_module.__name__)

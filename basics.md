@@ -48,6 +48,19 @@ Conversely, if we unpack a list of arguments passed to a function, we get sepera
 >>> list(range(*args)) // Arguments unpacked
 [1, 2, 3]
 ```
+### More unpacking
+```python
+>>> *l, = range(5)  # Note that asterik expression (unpacking) must be in a tuple
+>>> l
+[1, 2, 3, 4, 5]
+>>> x, y, *l = range(10)
+>>> x
+0
+>>> y
+1
+>>> l
+[2, 3, 4, 5, 6, 7, 8, 9]
+```
 ### Lambda Expressions
 Small, light-weight functions can be defined using lambdas. The syntax is
 ```
